@@ -6,7 +6,7 @@ using System.Threading.Tasks;
  
 namespace ToursApp.Models
 {
-    internal class HotelImage
+    public class HotelImage
     {
         public int Id { get; set;}
         public Hotel Hotel { get; set; }
